@@ -1,4 +1,4 @@
-#Google Imitation Website
+# Google Imitation Website
 This was my first web design project. The exercise comes from [the Odin Project](https://www.theodinproject.com/dashboard). It was built entirely with HTML/CSS and by referencing the actual Google Homepage.
 
 Obviously, there is no functionality and also no mobile version; it's more just for practice.
