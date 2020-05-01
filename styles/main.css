@@ -42,17 +42,28 @@ a:hover {
   opacity: 1.0;
 }
 
-#main {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, 0);
+#search {
+  margin-bottom: 20px;
 }
 
-button {
+#main {
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+
+#search button {
   padding: 2px;
   border: none;
   background-color: #e8e8e8;
+  height: 36px;
+  margin: 30px 4px 10px 4px;
+  padding: 0px 20px 0px 30px;
+  font-opacity: 0.7;
+  opacity: 0.7;
+  font-size: 14px;
 }
 
 #searchbar {
@@ -80,10 +91,13 @@ input[type=text] {
   padding: 15px;
 }
 
-#main input {
-  border: none;
+#logo {
+  padding-bottom: 40px;
 }
 
+#main a {
+  color: blue;
+}
 
 
 footer {
@@ -98,6 +112,7 @@ footer {
   grid-gap: 1em;
   font-size: 14px;
   opacity: 0.65;
+  background-color: #eee;
 }
 
 footer p {
