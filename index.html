@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Google for poor people</title>
+  <link rel='stylesheet' type='text/css' href='styles/normalize.css'>
+  <link rel='stylesheet' type='text/css' href='styles/custom-reset.css'>
+  <link rel='stylesheet' type='text/css' href='styles/main.css'>
+  <link rel='shortcut icon' href="images/icon.ico">
 </head>
 
 <body>
@@ -16,21 +20,40 @@
       <div id="header-right">
         <a href="#">Gmail</a>
         <a href="#">Images</a>
-        <a href="#">Apps</a>
-        <a href="#">User</a>
+        <a href="#"><img id="apps" alt="Apps" src="images/apps.png"></a>
+        <a href="#"><img id="user" alt="User" src="images/user.jpg"></a>
+      </div>
     </div>
 
     <div id="main">
       <img id="logo" alt="Google" src="images/google-logo.png">
 
-      <div id="searchbar">
+      <form id="search" action="">
+        <div id='searchbar'>
 
+          <input type="text"><br>
+        </div>
+          <button id="submit-search" type="submit">Google Search</button>
+          <button id="lucky-search" type="submit">I'm feeling lucky</button>
+      </form>
+      
+      <div id="language-option">
+        <p>Google offered in: <a href='#'>Deutsch</a></p>
       </div>
 
     </div>
 
     <footer>
-
+      <p>Germany</p>
+      <div id="footer-left">
+        <a href="#">Advertising</a>
+        <a href="#">Buisness</a>
+        <a href="#">How Search works</a>
+      </div>
+      <div id="footer-right">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Settings</a>
     </footer>
   </div>
 </body>
