@@ -1,0 +1,85 @@
+html{
+  font-family: arial, sans-serif;
+  font-size: small;
+}
+
+a, p {
+  opacity: 0.9;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px 15px 25px;
+  font-size: 13px;
+  align-items: center;
+}
+
+#header-right {
+  display: flex;
+  align-items: center;
+}
+
+#header a {
+  padding: 0px 10px;
+}
+
+#apps {
+  width: 20px;
+  height: auto;
+  opacity: 0.75;
+}
+
+#user {
+  width: 32;
+  height: auto;
+  border-radius: 50%;
+  opacity: 1.0;
+}
+
+#main {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+footer {
+  display: grid;
+  grid-template-areas: "country . " "left right";
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 15px 25px 15px 25px;
+  grid-gap: 1em;
+  font-size: 14px;
+  opacity: 0.65;
+}
+
+footer p {
+  grid-area: country;
+  justify-self: start;
+  padding: 0px 10px;
+}
+
+footer a {
+  padding: 0px 10px;
+}
+
+footer #footer-left {
+  grid-area: left;
+  justify-self: start;
+}
+
+footer #footer-right {
+  grid-area: right;
+  justify-self: end;
+}
